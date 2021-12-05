@@ -4,4 +4,10 @@
   <span>
     <%= link_to list.title, list_path(list.id) %> 
   </span>
+  <p>画像</p>
+  <% if list.image.attached? %>
+    <%= image_tag list.image %>
+  <% else %>
+    <%= image_tag 'no_image' %>
+  <% end %>
 <% end %>
