@@ -57,3 +57,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rename"
 # 画像サイズの変更機能を担当
 gem "image_processing", "~>1.2"
+gem "pry-rails"
